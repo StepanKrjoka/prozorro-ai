@@ -1,0 +1,3230 @@
+[
+ {
+  "run": "2026-11-25T18:33:36+00:00",
+  "windows": [
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 9,
+    "fetched": 9
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 41,
+    "fetched": 41
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-02-01",
+    "end": "2025-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 31,
+    "fetched": 31
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 9,
+    "fetched": 9
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-03-01",
+    "end": "2025-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 17,
+    "fetched": 17
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 25,
+    "fetched": 25
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-04-01",
+    "end": "2025-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 26,
+    "fetched": 26
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 25,
+    "fetched": 25
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-05-01",
+    "end": "2025-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-06-01",
+    "end": "2025-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-07-01",
+    "end": "2025-07-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-08-01",
+    "end": "2025-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 9,
+    "fetched": 9
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-09-01",
+    "end": "2025-09-30",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 25,
+    "fetched": 25
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 15,
+    "fetched": 15
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-10-01",
+    "end": "2025-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 15,
+    "fetched": 15
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 30,
+    "fetched": 30
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-11-01",
+    "end": "2025-11-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:AI",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 24,
+    "fetched": 24
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:LLM",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2025-12-01",
+    "end": "2025-12-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 17,
+    "fetched": 17
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-01-01",
+    "end": "2026-01-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 9,
+    "fetched": 9
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 15,
+    "fetched": 15
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 38,
+    "fetched": 38
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-02-01",
+    "end": "2026-02-28",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 21,
+    "fetched": 21
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 33,
+    "fetched": 33
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-03-01",
+    "end": "2026-03-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 18,
+    "fetched": 18
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 25,
+    "fetched": 25
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 31,
+    "fetched": 31
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 7,
+    "fetched": 7
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 16,
+    "fetched": 16
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-04-01",
+    "end": "2026-04-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 17,
+    "fetched": 17
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 3,
+    "fetched": 3
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 20,
+    "fetched": 20
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 23,
+    "fetched": 23
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 19,
+    "fetched": 19
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 20,
+    "fetched": 20
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-06-01",
+    "end": "2026-06-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 20,
+    "fetched": 20
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 19,
+    "fetched": 19
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 26,
+    "fetched": 26
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 2,
+    "fetched": 2
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 15,
+    "fetched": 15
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-07-01",
+    "end": "2026-07-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 9,
+    "fetched": 9
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 18,
+    "fetched": 18
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 21,
+    "fetched": 21
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 16,
+    "fetched": 16
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 8,
+    "fetched": 8
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 10,
+    "fetched": 10
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-08-01",
+    "end": "2026-08-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 28,
+    "fetched": 28
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 30,
+    "fetched": 30
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 12,
+    "fetched": 12
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 4,
+    "fetched": 4
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 23,
+    "fetched": 23
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 13,
+    "fetched": 13
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 24,
+    "fetched": 24
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 46,
+    "fetched": 46
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 6,
+    "fetched": 6
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-10-01",
+    "end": "2026-10-31",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:штучний інтелект",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:штучного інтелекту",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:штучним інтелектом",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:ШІ",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 18,
+    "fetched": 18
+   },
+   {
+    "query": "text:AI",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 34,
+    "fetched": 34
+   },
+   {
+    "query": "text:artificial intelligence",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:нейромережа",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейромереж",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:нейронних мереж",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 1,
+    "fetched": 1
+   },
+   {
+    "query": "text:машинне навчання",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:машинного навчання",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:machine learning",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:deep learning",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:генеративний",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 45,
+    "fetched": 45
+   },
+   {
+    "query": "text:ChatGPT",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 0,
+    "fetched": 0
+   },
+   {
+    "query": "text:GPT",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 16,
+    "fetched": 16
+   },
+   {
+    "query": "text:OpenAI",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 11,
+    "fetched": 11
+   },
+   {
+    "query": "text:Copilot",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 5,
+    "fetched": 5
+   },
+   {
+    "query": "text:LLM",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 14,
+    "fetched": 14
+   },
+   {
+    "query": "text:мовних моделей",
+    "start": "2026-11-01",
+    "end": "2026-11-25",
+    "total": 1,
+    "fetched": 1
+   }
+  ],
+  "truncated": [],
+  "seen": 2136,
+  "kept": 2136
+ }
+]
