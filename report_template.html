@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Штучний інтелект у Prozorro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fff1e5; --panel:#fff7ef; --ink:#262a33; --muted:#66605a; --line:#e3d3c3;
+  --accent:#990f3d; --accent-soft:#f2dfe2; --bar:#0d7680; --bar-soft:#d6ecec; --warn-bg:#fdf0d5; --warn:#7a5200;
+}
+:root[data-theme="dark"]{--bg:#1d1a17; --panel:#26221e; --ink:#efe6dc; --muted:#a69a8d; --line:#3d362f;--accent:#ff7a9c; --accent-soft:#3b2228; --bar:#4fb3bb; --bar-soft:#1f3436; --warn-bg:#3a2f17; --warn:#f0c87a;}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1d1a17; --panel:#26221e; --ink:#efe6dc; --muted:#a69a8d; --line:#3d362f;
+    --accent:#ff7a9c; --accent-soft:#3b2228; --bar:#4fb3bb; --bar-soft:#1f3436; --warn-bg:#3a2f17; --warn:#f0c87a;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 "IBM Plex Sans",system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 16px 80px}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;font-weight:700;line-height:1.2}
+h1{font-size:34px;margin:0 0 6px}
+h2{font-size:24px;margin:44px 0 6px;padding-top:14px;border-top:2px solid var(--ink)}
+.sub{color:var(--muted);margin:0 0 18px}
+.lede{max-width:760px;font-size:16px}
+.note{background:var(--warn-bg);color:var(--warn);border-left:3px solid var(--warn);padding:10px 14px;margin:14px 0;max-width:860px;font-size:14px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--ink);border-radius:2px;overflow:hidden}
+.seg button{background:transparent;border:0;padding:6px 12px;font:inherit;color:var(--ink);cursor:pointer}
+.seg button.on{background:var(--ink);color:var(--bg)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:3px 10px;font-size:13px;cursor:pointer;user-select:none}
+.chip.on{border-color:var(--accent);background:var(--accent-soft)}
+input[type=search]{font:inherit;padding:6px 10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);min-width:220px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:18px 0}
+.kpi{background:var(--panel);border-top:3px solid var(--accent);padding:10px 12px}
+.kpi b{display:block;font:700 24px "Source Serif 4",serif}
+.kpi span{color:var(--muted);font-size:13px}
+.tbl{width:100%;border-collapse:collapse;font-size:14px}
+.tbl th{text-align:left;font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.03em;border-bottom:1px solid var(--ink);padding:6px 8px;white-space:nowrap}
+.tbl td{border-bottom:1px solid var(--line);padding:7px 8px;vertical-align:top}
+.tbl th.n{text-align:right}
+.tbl td a{white-space:nowrap}
+.tbl td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tbl tr.click{cursor:pointer}
+.tbl tr.click:hover td{background:var(--panel)}
+.code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:var(--muted);white-space:nowrap}
+.barcell{position:relative;min-width:120px}
+.bar{position:absolute;left:8px;top:50%;height:8px;margin-top:-4px;background:var(--bar-soft)}
+.bar i{display:block;height:100%;background:var(--bar)}
+.detail td{background:var(--panel);font-size:13px}
+.detail table{width:100%;border-collapse:collapse}
+.detail td td{border-bottom:1px dotted var(--line);padding:4px 6px;background:none}
+a{color:var(--accent)}
+.tag{display:inline-block;font-size:11px;padding:0 6px;border-radius:8px;background:var(--line);color:var(--ink);margin-left:4px}
+.scroll{overflow-x:auto}
+.more{margin-top:8px;font:inherit;background:none;border:1px solid var(--ink);padding:5px 12px;cursor:pointer;color:var(--ink)}
+details{margin:8px 0}
+.months{display:flex;align-items:flex-end;gap:3px;height:140px;margin:12px 0 4px;border-bottom:1px solid var(--ink)}
+.months div{flex:1;background:var(--bar);min-width:6px;position:relative}
+.months div.gen{background:var(--accent)}
+.mlab{display:flex;gap:3px;font-size:11px;color:var(--muted)}
+.mlab span{flex:1;text-align:center;min-width:6px}
+.legend{font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;margin:0 4px 0 10px;vertical-align:middle}
+label.tg{font-size:14px;display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+.small{font-size:13px;color:var(--muted)}
+.method li{margin:6px 0;max-width:900px}
+footer{margin-top:40px;color:var(--muted);font-size:13px}
+@media (max-width:700px){.controls{position:static}.hide-m{display:none}h1{font-size:27px}input[type=search]{min-width:0;width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Штучний інтелект у державних закупівлях</h1>
+  <p class="sub" id="sub"></p>
+  <p class="lede">Що публічні замовники купують, коли в закупівлі прямо згадано штучний інтелект, нейромережі, машинне навчання,
+    ChatGPT чи Copilot: у кого, за скільки і як ця тема зростає.</p>
+  <div class="note">У вибірці лише закупівлі через Prozorro, які індексує його пошук: відкриті торги, спрощені закупівлі, запити цінових
+    пропозицій. Прямі договори, оприлюднені звітом, і переговорні процедури сюди не потрапляють — а ліцензії на програмне забезпечення
+    часто купують саме так.</div>
+  <div class="note" id="incomplete" style="display:none">Первинний збір ще триває: частину закупівель ще не завантажено.</div>
+
+  <div class="controls">
+    <div class="seg" id="year"><button data-v="" class="on">Усі роки</button><button data-v="2025">2025</button><button data-v="2026">2026</button></div>
+    <div class="seg" id="own"><button data-v="" class="on">Усі</button><button data-v="державна">Державні</button><button data-v="комунальна">Комунальні</button></div>
+    <label class="tg"><input type="checkbox" id="gen"> лише генеративний ШІ</label>
+    <label class="tg"><input type="checkbox" id="whole"> лише закупівлі, цілком присвячені ШІ</label>
+    <input type="search" id="q" placeholder="Пошук: назва, замовник, постачальник, ЄДРПОУ">
+    <div class="chips" id="cats"></div>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <h2>Як зростає тема</h2>
+  <p class="small">Кількість оголошених закупівель зі згадкою ШІ за місяцями. <span class="legend"><i style="background:var(--accent)"></i>з них генеративний ШІ</span></p>
+  <div class="months" id="months"></div><div class="mlab" id="mlab"></div>
+
+  <h2>Що купують</h2>
+  <div class="scroll"><table class="tbl" id="catTbl"></table></div>
+
+  <h2>Хто продає</h2>
+  <p class="small">Постачальники за сумою договорів (поточна вартість з урахуванням допугод). Клік — договори.</p>
+  <div class="scroll"><table class="tbl" id="supTbl"></table></div>
+  <button class="more" id="supMore"></button>
+
+  <h2>Хто купує</h2>
+  <div class="scroll"><table class="tbl" id="buyTbl"></table></div>
+  <button class="more" id="buyMore"></button>
+
+  <h2>Усі закупівлі зі згадкою ШІ</h2>
+  <p class="small">Включно зі скасованими, тими, що не відбулися, і тими, що ще тривають. «Окремі позиції» — ШІ лише в частині закупівлі.</p>
+  <div class="scroll"><table class="tbl" id="tTbl"></table></div>
+  <button class="more" id="tMore"></button>
+
+  <h2>Методологія</h2>
+  <ul class="method" id="method"></ul>
+  <p id="downloads"></p>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const M = DATA.meta;
+const fmt = v => v==null ? "—" : Math.round(v).toLocaleString("uk-UA");
+const mln = v => (v/1e6).toLocaleString("uk-UA",{maximumFractionDigits:1}) + " млн грн";
+const esc = s => String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dateUA = d => d ? d.slice(8,10)+"."+d.slice(5,7)+"."+d.slice(0,4) : "—";
+const link = r => `<a href="${r.url||('https://prozorro.gov.ua/tender/'+r.tender_id)}" target="_blank" rel="noopener">${r.tender_id}</a>`;
+let year="", own="", gen=false, whole=false, q="", cats=new Set(Object.keys(M.categories)), lim={sup:25,buy:25,t:50}, open={};
+
+document.getElementById("sub").textContent =
+  `Дані Prozorro станом на ${new Date(M.built).toLocaleString("uk-UA")} · закупівлі, оголошені з ${dateUA(M.date_from)}`;
+if (M.details_incomplete) document.getElementById("incomplete").style.display = "";
+const catBox = document.getElementById("cats");
+for (const [id,t] of Object.entries(M.categories)) {
+  const c = document.createElement("span"); c.className="chip on"; c.textContent=t;
+  c.onclick=()=>{cats.has(id)?cats.delete(id):cats.add(id); c.classList.toggle("on"); render();}; catBox.appendChild(c);
+}
+for (const id of ["year","own"]) document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{
+  if(id==="year") year=b.dataset.v; else own=b.dataset.v;
+  document.querySelectorAll(`#${id} button`).forEach(x=>x.classList.toggle("on",x===b)); render();});
+document.getElementById("gen").onchange=e=>{gen=e.target.checked;render();};
+document.getElementById("whole").onchange=e=>{whole=e.target.checked;render();};
+document.getElementById("q").oninput=e=>{q=e.target.value.trim().toLowerCase();render();};
+for (const k of ["sup","buy","t"]) document.getElementById(k+"More").onclick=()=>{lim[k]=lim[k]>1e6?(k==="t"?50:25):1e9;render();};
+
+const pass = (r, yField) => (!year || r[yField]===year) && (!own || r.ownership===own) && (!gen || r.genai)
+  && (!whole || r.ai_scope==="весь тендер") && cats.has(r.category)
+  && (!q || [r.title,r.buyer,r.buyer_edrpou,r.supplier,r.supplier_edrpou,r.tender_id].some(x=>String(x||"").toLowerCase().includes(q)));
+
+function agg(rows, key, name, code, partner){
+  const m=new Map();
+  for(const r of rows){const k=r[key]||r[name]; let a=m.get(k);
+    if(!a){a={name:r[name],code:r[code],total:0,n:0,p:new Set(),rows:[]};m.set(k,a);}
+    a.total+=r.value_rank;a.n++;a.p.add(r[partner]);a.rows.push(r);}
+  return [...m.values()].sort((a,b)=>b.total-a.total);
+}
+function rankTable(id, list, total, partnerLabel, otherName, k){
+  const max=list[0]?.total||1;
+  let h=`<tr><th>#</th><th>Назва</th><th>ЄДРПОУ</th><th class="n">Сума, грн</th><th class="n">Частка</th><th class="n">Договорів</th><th class="n hide-m">${partnerLabel}</th><th class="hide-m"></th></tr>`;
+  list.slice(0,lim[k]).forEach((a,i)=>{
+    const key=k+a.code+a.name;
+    h+=`<tr class="click" data-k="${esc(key)}"><td>${i+1}</td><td>${esc(a.name)}</td><td class="code">${esc(a.code)}</td>
+      <td class="n">${fmt(a.total)}</td><td class="n">${(100*a.total/(total||1)).toFixed(1)}%</td><td class="n">${a.n}</td>
+      <td class="n hide-m">${a.p.size}</td><td class="barcell hide-m"><div class="bar" style="width:${Math.max(2,100*a.total/max)}px"><i></i></div></td></tr>`;
+    if(open[key]) h+=`<tr class="detail"><td colspan="8"><table>${a.rows.sort((x,y)=>y.value_rank-x.value_rank).map(r=>
+      `<tr><td>${link(r)}</td><td>${dateUA(r.date_signed)}</td><td>${esc((r.title||"").slice(0,140))}</td><td>${esc(r[otherName])}</td><td class="n">${fmt(r.value_rank)}</td></tr>`).join("")}</table></td></tr>`;
+  });
+  const t=document.getElementById(id); t.innerHTML=h;
+  t.querySelectorAll("tr.click").forEach(tr=>tr.onclick=()=>{open[tr.dataset.k]=!open[tr.dataset.k];render();});
+  const b=document.getElementById(k+"More"); b.style.display=list.length>(k==="t"?50:25)?"":"none";
+  b.textContent=lim[k]>1e6?"Згорнути":`Показати всіх (${list.length})`;
+}
+
+function render(){
+  const C=DATA.contracts.filter(r=>pass(r,"signed_year")), T=DATA.tenders.filter(r=>pass(r,"year"));
+  const total=C.reduce((s,r)=>s+r.value_rank,0);
+  const kp=[[T.length,"закупівель зі згадкою ШІ"],[C.length,"договорів"],[mln(total),"сума договорів"],
+    [new Set(T.map(r=>r.buyer_edrpou)).size,"замовників"],[new Set(C.map(r=>r.supplier_edrpou)).size,"постачальників"],
+    [T.filter(r=>r.genai).length,"закупівель генеративного ШІ"]];
+  document.getElementById("kpis").innerHTML=kp.map(([v,l])=>`<div class="kpi"><b>${typeof v==="number"?fmt(v):v}</b><span>${l}</span></div>`).join("");
+
+  const mm=new Map(); for(const r of T){const m=(r.notice_date||"").slice(0,7); if(!m)continue; const a=mm.get(m)||[0,0]; a[0]++; if(r.genai)a[1]++; mm.set(m,a);}
+  const months=[]; let d=new Date(M.date_from+"T00:00:00Z"); const end=new Date(M.built);
+  while(d<=end){months.push(d.toISOString().slice(0,7)); d=new Date(Date.UTC(d.getUTCFullYear(),d.getUTCMonth()+1,1));}
+  const mx=Math.max(1,...months.map(m=>(mm.get(m)||[0])[0]));
+  document.getElementById("months").innerHTML=months.map(m=>{const [a,g]=mm.get(m)||[0,0];
+    return `<div title="${m}: ${a} закупівель, з них генеративний ШІ ${g}" style="height:${100*a/mx}%"><div class="gen" style="position:absolute;bottom:0;left:0;right:0;height:${a?100*g/a:0}%"></div></div>`;}).join("");
+  document.getElementById("mlab").innerHTML=months.map(m=>`<span>${m.endsWith("-01")||m===months[0]?m.slice(0,4):m.slice(5)}</span>`).join("");
+
+  const ct=new Map(); for(const r of T){const a=ct.get(r.category)||{t:0,c:0,v:0}; a.t++; ct.set(r.category,a);}
+  for(const r of C){const a=ct.get(r.category)||{t:0,c:0,v:0}; a.c++; a.v+=r.value_rank; ct.set(r.category,a);}
+  document.getElementById("catTbl").innerHTML=`<tr><th>Категорія (за CPV позицій з ШІ)</th><th class="n">Закупівель</th><th class="n">Договорів</th><th class="n">Сума, грн</th></tr>`+
+    [...ct.entries()].sort((a,b)=>b[1].v-a[1].v).map(([k,a])=>`<tr><td>${esc(M.categories[k]||k)}</td><td class="n">${a.t}</td><td class="n">${a.c}</td><td class="n">${fmt(a.v)}</td></tr>`).join("");
+
+  rankTable("supTbl", agg(C,"supplier_edrpou","supplier","supplier_edrpou","buyer_edrpou"), total, "Замовників", "buyer", "sup");
+  rankTable("buyTbl", agg(C,"buyer_edrpou","buyer","buyer_edrpou","supplier_edrpou"), total, "Постачальників", "supplier", "buy");
+
+  const TT=[...T].sort((a,b)=>(b.notice_date||"").localeCompare(a.notice_date||""));
+  document.getElementById("tTbl").innerHTML=`<tr><th>Дата</th><th>Закупівля</th><th>Замовник</th><th class="n">Очікувана вартість</th><th class="hide-m">Статус</th><th class="hide-m">Де згадано ШІ</th></tr>`+
+    TT.slice(0,lim.t).map(r=>`<tr><td>${dateUA(r.notice_date)}</td><td>${link(r)}<br>${esc((r.title||"").slice(0,180))}${r.genai?'<span class="tag">генеративний ШІ</span>':""}${r.ai_scope!=="весь тендер"?`<br><span class="small">позиції з ШІ: ${esc(r.ai_items.slice(0,200))}</span>`:""}</td>
+      <td>${esc(r.buyer)}<br><span class="code">${esc(r.buyer_edrpou)}</span></td><td class="n">${fmt(r.expected_value)}</td><td class="hide-m">${esc(r.status_ua)}</td>
+      <td class="hide-m small">${esc(r.ai_where)}: ${esc(r.ai_terms)}</td></tr>`).join("");
+  const b=document.getElementById("tMore"); b.style.display=TT.length>50?"":"none"; b.textContent=lim.t>1e6?"Згорнути":`Показати всі (${TT.length})`;
+}
+render();
+
+(function(){
+  const rej=Object.entries(M.rejected||{}).map(([k,v])=>`${k}: ${v}`).join("; ");
+  document.getElementById("method").innerHTML=[
+    `Окремого коду закупівельного словника для штучного інтелекту немає, тому кандидатів відібрано текстовим пошуком prozorro.gov.ua за датою оголошення з ${dateUA(M.date_from)}. Запити: ${M.text_search.map(esc).join(", ")}.`,
+    `Для кожного кандидата з офіційного API (public-api.prozorro.gov.ua) завантажено повні дані. У вибірку потрапила закупівля, лише якщо ШІ явно згадано в назві, описі, лоті чи позиції: «штучний інтелект», «ШІ», «AI», нейромережі, машинне чи глибинне навчання, генеративні й великі мовні моделі, ChatGPT/GPT, OpenAI, Copilot. Згадки на кшталт «клавіша Copilot» на клавіатурі не враховано.`,
+    `«Цілком присвячена ШІ» — ШІ згадано в назві чи описі закупівлі або в усіх її позиціях. Якщо ШІ лише в частині позицій, закупівля позначена «окремі позиції»; тоді в суму йдуть договори за лотами з ШІ, а для однолотових — увесь договір, тож сума може містити й інші товари.`,
+    `Категорію визначено за кодом CPV позицій зі згадкою ШІ: обладнання (30–44), програмне забезпечення (48), ІТ-послуги (72), навчання і заходи (80, 92, 55), консалтинг і дослідження (71, 73, 79). «Генеративний ШІ» — згадано генеративні чи мовні моделі, ChatGPT/GPT, OpenAI, Copilot або чат-боти.`,
+    `Сума договору — поточна вартість з урахуванням додаткових угод; для виконаних і розірваних — фактично сплачена, якщо її вказано. Це зобов'язання за договорами, а не фактичні платежі. Рік у фільтрі — рік підписання для договорів і рік оголошення для закупівель.`,
+    `Групу і власність замовника визначено за назвою — це наближення.`,
+    `Відсіяно: ${rej||"—"}. Кандидатів з пошуку: ${M.candidates}, закупівель зі згадкою ШІ: ${M.tenders}, договорів: ${M.contracts}.`
+  ].map(x=>`<li>${x}</li>`).join("");
+  const f=["tenders.csv","contracts.csv","suppliers.csv","buyers_rank.csv","summary.json"];
+  document.getElementById("downloads").innerHTML="Дані: "+f.map(x=>`<a href="https://github.com/StepanKrjoka/prozorro-ai/blob/main/data/${x}" target="_blank" rel="noopener">${x}</a>`).join(" · ");
+  document.getElementById("foot").textContent="Джерело: Prozorro (prozorro.gov.ua), відкриті дані з правом повторного використання за умови посилання на джерело.";
+})();
+</script>
+</body>
+</html>
