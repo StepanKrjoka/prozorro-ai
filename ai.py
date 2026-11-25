@@ -134,6 +134,7 @@ def load_config():
     cfg["_ai"] = [re.compile(p, re.I) for p in cfg["ai_patterns"]]
     cfg["_ai_exc"] = [re.compile(p, re.I) for p in cfg.get("ai_exclude_context", [])]
     cfg["_genai"] = [re.compile(p, re.I) for p in cfg.get("genai_patterns", [])]
+    cfg["_weak_keep"] = [re.compile(p, re.I) for p in cfg.get("weak_hardware_keep", [])]
     return cfg
 
 
@@ -226,6 +227,16 @@ def category(cfg, items):
     if not cnt:
         return cfg["categories"][-1]["id"]
     return max(cnt, key=lambda k: (cnt[k], -[c["id"] for c in cfg["categories"]].index(k)))
+
+
+def weak_hardware(cfg, t, terms, ai_items):
+    """Обладнання, знайдене лише за «AI» без явного контексту ШІ (ноутбуки «AI», телевізори «Vision AI» тощо)."""
+    if not terms or any(x not in cfg.get("weak_terms", []) for x in terms):
+        return False
+    if category(cfg, ai_items or t.get("items") or []) != "hardware":
+        return False
+    text = norm(" ".join([t.get("title") or "", t.get("description") or ""] + [i.get("description") or "" for i in ai_items]))
+    return not any(p.search(text) for p in cfg["_weak_keep"])
 
 
 def is_genai(cfg, text):
@@ -557,6 +568,9 @@ def cmd_build(cfg, args):
         where, terms, ai_items = tender_ai(cfg, t)
         if not where:
             rejected["ШІ не згадано (лише збіг пошуку)"] += 1
+            continue
+        if weak_hardware(cfg, t, terms, ai_items):
+            rejected["«AI» лише в назві моделі обладнання"] += 1
             continue
         notice = (t.get("date") or t.get("dateCreated") or "")[:10]
         if notice and notice < date_from:
